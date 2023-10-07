@@ -1,1 +1,1 @@
-# Multi-Region_High-Availability_Web_Application_on_AWS
+# AWS_VPC_two_regions
