@@ -1,8 +1,6 @@
 resource "aws_vpc" "vpc_us_east_1" {
     provider = aws
     cidr_block = "10.0.0.0/16"
-    enable_dns_support = true
-    enable_dns_hostnames = true
     
     tags = {
         Name = "us-east-1 VPC"
@@ -23,8 +21,6 @@ resource "aws_subnet" "us_east_subnet" {
 resource "aws_vpc" "vpc_us_west_2" {
     provider = aws.us_west
     cidr_block = "10.1.0.0/16"
-    enable_dns_support = true
-    enable_dns_hostnames = true
 
     tags = {
         Name = "us-west-2 VPC"
